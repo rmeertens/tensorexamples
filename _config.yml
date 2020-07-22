@@ -27,6 +27,10 @@ baseurl: "/tensorexamples" # the subpath of your site, e.g. /blog
 twitter_username: rolandmeertens
 github_username:  rmeertens
 
+# Google analytics stuff I added myself
+prod-analytics-id:  UA-161822888-2
+dev-analytics-id:   UA-161822888-2
+
 # Build settings
 theme: minima
 plugins:
