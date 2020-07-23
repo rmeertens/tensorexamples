@@ -7,6 +7,7 @@ RUN pip install -q PILLOW
 RUN pip install -q 'pyglet==1.3.2'
 RUN pip install -q pyvirtualdisplay
 RUN pip install -q tf-agents
+RUN pip install -q sklearn
 
 CMD jupyter notebook --notebook-dir=/workspace --ip 0.0.0.0 --port 8888 --no-browser --allow-root
 #CMD ["bash" "-c" "source /etc/bash.bashrc && jupyter notebook --notebook-dir=/workspace --ip 0.0.0.0 --no-browser --allow-root"]
