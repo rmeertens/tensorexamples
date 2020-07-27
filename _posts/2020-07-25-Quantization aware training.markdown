@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Quantization aware training for tensorflow-lite"
+date:   2020-07-25 10:52:17 +0200
+categories: tensorflow quantization tensorflow-lite
+---
+
 # Quantization aware training for tensorflow-lite
 If you want to run your TensorFlow code on an embedded platform you want to quantize your neural network. Especially edge-tpu devices or raspberry pi devices are very suitable for running quantized code. However, when quantizing your neural network it's possible that the performance goes down. What helps against this is running quantization aware training, where your model already experiences a downgrade in performance and is able to adjust to it. 
 
