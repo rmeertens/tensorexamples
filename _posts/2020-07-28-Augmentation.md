@@ -51,15 +51,15 @@ for index, inputs in enumerate(dataset.as_numpy_iterator()):
 {% endhighlight %}
 
  
-![png]({{ BASE_PATH }}/images/augmentation_3_0.png) 
+![png](https://raw.githubusercontent.com/rmeertens/tensorexamples/master/images/augmentation_3_0.png) 
 
 
  
-![png]({{ BASE_PATH }}/images/augmentation_3_1.png) 
+![png](https://raw.githubusercontent.com/rmeertens/tensorexamples/master/images/augmentation_3_1.png) 
 
 
  
-![png]({{ BASE_PATH }}/images/augmentation_3_2.png) 
+![png](https://raw.githubusercontent.com/rmeertens/tensorexamples/master/images/augmentation_3_2.png) 
 
  
 ## How to augment
@@ -82,7 +82,7 @@ plt.imshow(image_tensor)
 
 
  
-![png]({{ BASE_PATH }}/images/augmentation_5_1.png) 
+![png](https://raw.githubusercontent.com/rmeertens/tensorexamples/master/images/augmentation_5_1.png) 
 
 
 **In [14]:**
@@ -99,7 +99,7 @@ plt.imshow(tf.image.rot90(image_tensor, 3).numpy())
 
 
  
-![png]({{ BASE_PATH }}/images/augmentation_6_1.png) 
+![png](https://raw.githubusercontent.com/rmeertens/tensorexamples/master/images/augmentation_6_1.png) 
 
  
 ### Augmenting the color spaces
@@ -125,22 +125,22 @@ for image in [hue, saturation, brightness, contrast]:
 {% endhighlight %}
 
  
-![png]({{ BASE_PATH }}/images/augmentation_9_0.png) 
+![png](https://raw.githubusercontent.com/rmeertens/tensorexamples/master/images/augmentation_9_0.png) 
 
 
  
-![png]({{ BASE_PATH }}/images/augmentation_9_1.png) 
+![png](https://raw.githubusercontent.com/rmeertens/tensorexamples/master/images/augmentation_9_1.png) 
 
 
     Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
 
 
  
-![png]({{ BASE_PATH }}/images/augmentation_9_3.png) 
+![png](https://raw.githubusercontent.com/rmeertens/tensorexamples/master/images/augmentation_9_3.png) 
 
 
  
-![png]({{ BASE_PATH }}/images/augmentation_9_4.png) 
+![png](https://raw.githubusercontent.com/rmeertens/tensorexamples/master/images/augmentation_9_4.png) 
 
  
 Hopefully you can still recognize the image, although the colours are jumbled a
@@ -216,15 +216,15 @@ for index, inputs in enumerate(augmented_dataset.as_numpy_iterator()):
 {% endhighlight %}
 
  
-![png]({{ BASE_PATH }}/images/augmentation_17_0.png) 
+![png](https://raw.githubusercontent.com/rmeertens/tensorexamples/master/images/augmentation_17_0.png) 
 
 
  
-![png]({{ BASE_PATH }}/images/augmentation_17_1.png) 
+![png](https://raw.githubusercontent.com/rmeertens/tensorexamples/master/images/augmentation_17_1.png) 
 
 
  
-![png]({{ BASE_PATH }}/images/augmentation_17_2.png) 
+![png](https://raw.githubusercontent.com/rmeertens/tensorexamples/master/images/augmentation_17_2.png) 
 
  
 Images are looking great now, but the amount of augmentations is maybe a bit too
@@ -258,15 +258,15 @@ for index, inputs in enumerate(augmented_dataset.as_numpy_iterator()):
 {% endhighlight %}
 
  
-![png]({{ BASE_PATH }}/images/augmentation_20_0.png) 
+![png](https://raw.githubusercontent.com/rmeertens/tensorexamples/master/images/augmentation_20_0.png) 
 
 
  
-![png]({{ BASE_PATH }}/images/augmentation_20_1.png) 
+![png](https://raw.githubusercontent.com/rmeertens/tensorexamples/master/images/augmentation_20_1.png) 
 
 
  
-![png]({{ BASE_PATH }}/images/augmentation_20_2.png) 
+![png](https://raw.githubusercontent.com/rmeertens/tensorexamples/master/images/augmentation_20_2.png) 
 
  
 As you can see images are looking a bit more recognisable now. 
