@@ -18,14 +18,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# Dependencies
-#markdown:         redcarpet
-highlighter:      pygments
-
-# Permalinks
-permalink:        pretty
-#relative_permalinks: true
-
 
 title: Tensor Examples
 email: rolandmeertens@gmail.com
@@ -33,15 +25,9 @@ description: Examples in Pytorch and Tensorflow
   
   
 url: "tensorexamples.com"
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#baseurl: "/tensorexamples" # the subpath of your site, e.g. /blog
-baseurl: "/" 
+baseurl: "/"
 twitter_username: rolandmeertens
 github_username:  rmeertens
-
-# Google analytics stuff I added myself
-prod-analytics-id:  UA-161822888-2
-dev-analytics-id:   UA-161822888-2
 
 # Build settings
 theme: minima
