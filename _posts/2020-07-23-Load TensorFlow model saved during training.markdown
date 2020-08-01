@@ -2,7 +2,6 @@
 layout: post
 title:  "Loading TensorFlow models saved during training"
 date:   2020-07-23 10:52:17 +0200
-categories: tensorflow saving loading models callback
 ---
 # Loading TensorFlow models saved during training
 When you are training large models on large datasets you normally do not want to wait and drink coffee while models are training. After starting a training you frequently move on to a next experiment, and check the results later. This tutorial shows you how to save models during training, and how you can later load and evaluate these models. 

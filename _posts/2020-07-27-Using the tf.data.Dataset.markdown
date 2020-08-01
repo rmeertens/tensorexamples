@@ -2,7 +2,6 @@
 layout: post
 title:  "Using the tf.data.Dataset"
 date:   2020-07-27 10:52:17 +0200
-categories: tensorflow tf.data.Dataset NumPy generators
 ---
 # Using the tf.data.Dataset
 

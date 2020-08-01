@@ -2,7 +2,6 @@
 layout: post
 title:  "Training and evaluating MNIST in one line"
 date:   2020-07-24 10:52:17 +0200
-categories: tensorflow train MNIST one python
 ---
 # Training and evaluating MNIST in one line
 Python is a fantastic language which both allows you to make self-documenting understandable code, and allows you to make short powerful statements. I wanted to try to train and evaluate a neural network on the MNIST dataset. In this post I will guide you through my progress on achieving this. 

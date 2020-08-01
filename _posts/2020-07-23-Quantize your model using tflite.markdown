@@ -2,7 +2,6 @@
 layout: post
 title:  "Quantization in tensorflow-lite"
 date:   2020-07-23 10:52:17 +0200
-categories: tensorflow quantization
 ---
 
 # Quantization in tensorflow-lite

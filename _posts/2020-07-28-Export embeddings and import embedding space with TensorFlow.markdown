@@ -2,7 +2,6 @@
 layout: post
 title:  "Example on how to visualise embeddings with TensorFlow"
 date:   2020-07-28 10:52:17 +0200
-categories: tensorflow embeddings nlp
 ---
 # Example on how to visualise embeddings with TensorFlow
 It's easy to visualise an embeddings-space in with TensorFlow. In this case I'm using TensorFlow 2. The best tool to achieve this is using the TensorFlow Projector: an online tool which basically does all heavy lifting for you. The only thing you have to do for this is saving your embeddings (or raw data) and drag it into the tool. Here I show how to do it with MNIST data, where I assume each raw MNIST digit is an embedding. 

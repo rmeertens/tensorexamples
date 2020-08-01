@@ -2,7 +2,6 @@
 layout: post
 title:  "Quantization aware training for tensorflow-lite"
 date:   2020-07-25 10:52:17 +0200
-categories: tensorflow quantization tensorflow-lite
 ---
 
 # Quantization aware training for tensorflow-lite

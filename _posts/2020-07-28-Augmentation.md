@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Augmentation"
-tags: python notebook
 --- 
 # Augmenting your input in TensorFlow
 

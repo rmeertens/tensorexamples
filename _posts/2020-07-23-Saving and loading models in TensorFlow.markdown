@@ -2,7 +2,6 @@
 layout: post
 title:  "Saving and loading models in tensorflow"
 date:   2020-07-23 10:52:17 +0200
-categories: tensorflow saving loading models
 ---
 
 # Saving and loading models in tensorflow
