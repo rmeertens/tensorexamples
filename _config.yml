@@ -32,10 +32,10 @@ email: rolandmeertens@gmail.com
 description: Examples in Pytorch and Tensorflow
   
   
-url: tensorexamples.com 
+url: "tensorexamples.com"
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #baseurl: "/tensorexamples" # the subpath of your site, e.g. /blog
-baseurl: "tensorexamples.com/" 
+baseurl: "/" 
 twitter_username: rolandmeertens
 github_username:  rmeertens
 
