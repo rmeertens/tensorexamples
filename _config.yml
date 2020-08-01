@@ -18,14 +18,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: TensorExamples
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+
+title: Tensor Examples
 email: rolandmeertens@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Examples in Pytorch and Tensorflow
-url: "rmeertens.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: tensorexamples.com 
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #baseurl: "/tensorexamples" # the subpath of your site, e.g. /blog
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: / 
 twitter_username: rolandmeertens
 github_username:  rmeertens
 
