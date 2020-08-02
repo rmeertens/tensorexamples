@@ -33,7 +33,7 @@ github_username:  rmeertens
 theme: minima
 plugins:
   - jekyll-feed
-
+  - jekyll-sitemap
 
 header_pages:
 - about.markdown
