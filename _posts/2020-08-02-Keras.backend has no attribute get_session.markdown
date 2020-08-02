@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "keras.backend has no attribute get_session"
+date:   2020-08-02 13:52:17 +0200
+---
+One of the most annoying things about migrating code to Tensorflow 2 is that some functions are not backwards compatible. One example which pops up frequently for me when mixing Tensorflow 1 and Tensorflow 2 code is the session attribute of Keras. 
+
+Originally you needed to do a lot of things in TensorFlow in a specific session. Luckily the developers realized that this was a bit of a hassle, and abstracted the session away to the background. However, you still sometimes want to use it. 
+
+When Keras came along the session was very much abstracted away. For advanced stuff you could still retrieve it using the get_session function, which was hidden in the backend of Keras. In the newer TensorFlow Keras is the go-to API for defining neural networks, but the session should not explicitly be used anymore. 
+
+Hence you get the following error when you try to access it: `AttributeError: module 'tensorflow.keras.backend' has no attribute 'get_session'`. 
+
+Let's take a look
+
+
+```python
+import tensorflow as tf
+from tensorflow.keras import backend as K
+
+print("Working with version", tf.__version__)
+session = K.get_session()
+```
+
+    Working with version 2.2.0
+
+
+
+    ---------------------------------------------------------------------------
+
+    AttributeError                            Traceback (most recent call last)
+
+    <ipython-input-10-c1e72b5690be> in <module>
+          3 
+          4 print("Working with version", tf.__version__)
+    ----> 5 session = K.get_session()
+    
+
+    AttributeError: module 'tensorflow.keras.backend' has no attribute 'get_session'
+
+
+Luckily TensorFlow 2 is currently still compatible with TensorFlow 1 in many ways if you know where to look. Use the tf.compat.v1 api to get the session back: 
+
+
+
+```python
+session = tf.compat.v1.keras.backend.get_session()
+```
+
+Hopefully this allows you to stretch your code a little bit longer. However, it's definitely better to try to upgrade to TensorFlow 2.0 and just remove the access to the session. 
