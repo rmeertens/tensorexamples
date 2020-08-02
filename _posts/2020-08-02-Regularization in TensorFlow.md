@@ -192,7 +192,7 @@ plt.hist(model.layers[0].kernel.numpy().reshape(-1), bins=15)
 
 
 
-![png](output_7_1.png)
+![png](https://raw.githubusercontent.com/rmeertens/tensorexamples/master/images/Regularization%20in%20TensorFlow/output_7_1.png)
 
 
 
@@ -267,7 +267,7 @@ plt.hist(model.layers[0].kernel.numpy().reshape(-1), bins=15)
 
 
 
-![png](output_10_1.png)
+![png](https://raw.githubusercontent.com/rmeertens/tensorexamples/master/images/Regularization%20in%20TensorFlow/output_10_1.png)
 
 
 Another thing which is now present are the losses in the model. You can also see how big they are: 
