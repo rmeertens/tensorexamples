@@ -29,6 +29,8 @@ baseurl: "/"
 twitter_username: rolandmeertens
 github_username:  rmeertens
 
+google_analytics: UA-161822888-2
+
 # Build settings
 theme: minima
 plugins:
