@@ -35,7 +35,7 @@ for index, a in enumerate(ds):
 ```
 
 
-![png](output_3_0.png)
+![png](https://raw.githubusercontent.com/rmeertens/tensorexamples/master/images/How%20to%20use%20tensorflow_datasets/output_3_0.png)
 
 
     0
@@ -71,7 +71,7 @@ for index, (image, label) in enumerate(resized_dataset):
 ```
 
 
-![png](output_7_0.png)
+![png](https://raw.githubusercontent.com/rmeertens/tensorexamples/master/images/How%20to%20use%20tensorflow_datasets/output_7_0.png)
 
 
     1
