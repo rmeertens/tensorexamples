@@ -24,8 +24,8 @@ email: rolandmeertens@gmail.com
 description: Examples in Pytorch and Tensorflow
   
   
-url: "tensorexamples.com"
-baseurl: "/"
+url: "https://www.tensorexamples.com"
+baseurl: ""
 twitter_username: rolandmeertens
 github_username:  rmeertens
 
